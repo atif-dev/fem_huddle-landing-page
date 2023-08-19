@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/fem_huddle-landing-page/static/css/main.ebfca098.css",
+    "main.js": "/fem_huddle-landing-page/static/js/main.55fd0ece.js",
+    "static/js/787.59c7ef3a.chunk.js": "/fem_huddle-landing-page/static/js/787.59c7ef3a.chunk.js",
+    "static/media/illustration-flowing-conversation.svg": "/fem_huddle-landing-page/static/media/illustration-flowing-conversation.447b9b47aef8c266f047e609cbf11004.svg",
+    "static/media/illustration-your-users.svg": "/fem_huddle-landing-page/static/media/illustration-your-users.c07ebfaafd557ff00fa41ee62081bcac.svg",
+    "static/media/illustration-grow-together.svg": "/fem_huddle-landing-page/static/media/illustration-grow-together.3c29212c7a9ccd6cccf0412e4b520833.svg",
+    "static/media/logo.svg": "/fem_huddle-landing-page/static/media/logo.3c5a854404daac9e68209a04cf4dfbbe.svg",
+    "static/media/screen-mockups.svg": "/fem_huddle-landing-page/static/media/screen-mockups.7b6cb4d9270f53c0f45bbf842e8ce077.svg",
+    "static/media/icon-communities.svg": "/fem_huddle-landing-page/static/media/icon-communities.e889ff65d255a5e94c8edc7eaa66e423.svg",
+    "static/media/icon-messages.svg": "/fem_huddle-landing-page/static/media/icon-messages.a93f061b7c60758bb4ba41887ad0ff20.svg",
+    "index.html": "/fem_huddle-landing-page/index.html",
+    "static/media/bg-section-bottom-desktop-2.svg": "/fem_huddle-landing-page/static/media/bg-section-bottom-desktop-2.d3aceda96f2c01c6bbab47077d801891.svg",
+    "static/media/bg-section-top-desktop-2.svg": "/fem_huddle-landing-page/static/media/bg-section-top-desktop-2.56f9794a3f455baf1f9fbc251eeee424.svg",
+    "static/media/bg-section-bottom-desktop-1.svg": "/fem_huddle-landing-page/static/media/bg-section-bottom-desktop-1.749314bcb6b45ecfe1ff41277a91d24c.svg",
+    "static/media/bg-section-top-desktop-1.svg": "/fem_huddle-landing-page/static/media/bg-section-top-desktop-1.d6d9d44b00bbb80d506581aad3f825f8.svg",
+    "static/media/bg-footer-top-desktop.svg": "/fem_huddle-landing-page/static/media/bg-footer-top-desktop.8c0b6c1db046eed123c2e5d1fc186381.svg",
+    "static/media/icon-phone.svg": "/fem_huddle-landing-page/static/media/icon-phone.b85572680e531bcb351c52500ab98420.svg",
+    "static/media/icon-email.svg": "/fem_huddle-landing-page/static/media/icon-email.201ea9e2e87effbe720d0f8b77fba022.svg",
+    "main.ebfca098.css.map": "/fem_huddle-landing-page/static/css/main.ebfca098.css.map",
+    "main.55fd0ece.js.map": "/fem_huddle-landing-page/static/js/main.55fd0ece.js.map",
+    "787.59c7ef3a.chunk.js.map": "/fem_huddle-landing-page/static/js/787.59c7ef3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebfca098.css",
+    "static/js/main.55fd0ece.js"
+  ]
+}
