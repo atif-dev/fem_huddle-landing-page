@@ -1,38 +1,466 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3em;
+  width: 70%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+header button {
+  text-transform: capitalize;
+  padding: 0.8em 1.8em;
+  border-radius: 1.5em;
+  border: none;
+  color: hsl(322, 100%, 66%);
+  background: white;
+  border: 1px solid hsl(322, 100%, 66%);
+  font-family: "Open Sans", sans-serif;
+}
+
+header button:hover{
+  color: hsl(321, 100%, 78%);
+  border: 1px solid hsl(321, 100%, 78%);
+}
+
+.heading1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.second_sec {
   text-align: center;
+  width: 70%;
+  margin: 0em auto;
+  margin-top: 10em;
+  max-width: 1440px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sec_sec-par {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main .sec-btn {
+  padding: 1.5em 5.5em;
+  margin-top: 2em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: white;
+  background: hsl(322, 100%, 66%);
+  border-radius: 2.5em;
+  border: 1px solid hsl(322, 100%, 66%);
+  font-size: .9rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main .sec-btn:hover{
+  background: #FF8ED6;
+  border: 1px solid #FF8ED6;
+}
+
+main .sec_sec_b {
+  text-align: center;
+  width: 70%;
+  margin: 0em auto;
+  margin-top: 5em;
+  max-width: 1440px;
+}
+main .sec_sec_b img {
+  width: 60%;
+}
+
+.rating-sec{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 6em auto;
+  max-width: 1440px;
+
+}
+
+.rating-sec h1{
+  font-size: 6rem;
+}
+
+.rating-sec .rating_text1{
+  font-size: 1.5rem;
+  color: #959CA2;
+  margin-left: 0.3em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.rating-sec .rating_text2{
+  text-align: center;
+  font-size: 1.5rem;
+  color: #959CA2;
+  font-family: "Open Sans", sans-serif;
+}
+
+.sectionTop1-img{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.collab-sec_main{
+  background: #F6FBFF;
+}
+
+.collab-sec{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  max-width: 1440px;
+  background: #F6FBFF;
+}
+
+.collab-sec h1{
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.collab-sec img{
+  max-width: 100%;
+}
+
+.collab-sec p{
+  width: 80%;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1em;
+}
+
+.collab-sec div:nth-of-type(1){
+  display: grid;
+  place-content: center;
+}
+
+.flow-convers_sec{
+  display: flex;
+  width: 70%;
+  margin: 12em auto;
+  max-width: 1440px;
+}
+
+.flow-convers_sec img{
+  width: 80%;
+  max-width: 100%;
+}
+
+.flow-convers_sec div:nth-of-type(2){
+  display: grid;
+  place-content: center;
+}
+
+.flow-convers_sec h1{
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.flow-convers_sec p{
+  margin-top: 1em;
+}
+
+.getStarted-sec{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 70%;
+  margin: 10em auto;
+  max-width: 1440px;
+}
+
+.getStarted-sec h1{
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.getStarted-sec button{
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  padding: 0.9em 4.8em;
+  border-radius: 2em;
+  font-weight: 700;
+  font-size: 1.3rem;
+  background: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  margin-top: 1.2em;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.getStarted-sec button:hover{
+  background: #FF8ED6;
+  border: 1px solid #FF8ED6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footerImg{
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin-top: 12em;
+}
+
+.footer{
+  background: hsl(192, 100%, 9%);
+}
+
+.footer-sec{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-top: 5em;
+  color: white;
+  position: relative;
+}
+
+.footer-logoA svg path{
+  fill: white;
+}
+
+.footer-logoB{
+  fill: white;
+  margin-left: 1em;
+}
+
+.footer-sec h2{
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer-sec div:nth-of-type(1) p{
+  width: 70%;
+  margin-top: 1.5em;
+  line-height: 1.7;
+}
+
+.footer-sec div:nth-of-type(2) p{
+  margin-top: 1.5em;
+  line-height: 1.7;
+  width: 70%;
+}
+
+.footer-sec form {
+  margin-top: 1.5em;
+}
+
+.footer-sec form input:nth-of-type(1){
+  width: 50%;
+  /* height: 20px; */
+  padding: 1em 1em;
+  border-radius: 0.6em;
+  border: 1px solid white;
+  font-size: 1rem;
+}
+
+.footer-sec form input:nth-of-type(2){ 
+  padding: 0.9em 3em;
+  border-radius: 0.6em;
+  margin-left: 2em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  background: hsl(322, 100%, 66%);
+  color: white;
+  border: 1px solid hsl(322, 100%, 66%);
+}
+
+.footer-sec form input:nth-of-type(2):hover{
+  background: #FF8ED6;
+  border: 1px solid #FF8ED6;
+}
+
+.contact{
+  margin-right: 1em;
+  position: relative;
+  top: 4px;
+}
+
+.footer-sec div:nth-of-type(1) div{
+  display: flex;
+  gap: 15px;
+  margin-top: 5em;
+  margin-bottom: 1em;
+}
+
+.footer-sec div:nth-of-type(1) div svg{
+  height: 40px;
+  width: 40px;
+  fill: white;
+}
+
+.footer-sec div:nth-of-type(1) div svg:hover{
+  fill:#02C7F3;
+}
+
+.emailError{
+  font-size: .9rem;
+  color: red;
+  position: relative;
+  bottom: 1.5em;
+}
+
+@media screen and (max-width: 1115px) {
+  header{
+    display: block;
+    padding-top: 1em;
+    width: unset;
+    margin:unset;
+    max-width: unset;
   }
-  to {
-    transform: rotate(360deg);
+
+  header div:nth-of-type(1){
+    padding-left: 1em;
   }
+  header div:nth-of-type(2){
+    text-align: center;
+  }
+  header button{
+    padding: 1em 4em;
+    margin-top: 3em;
+  }
+
+  .sec_sec-par {
+    width: unset;
+    margin: unset;
+    margin-top: 2em;
+  }
+
+  main .sec-btn{
+    padding: 1.5em 4em;
+    font-size: .8rem;
+    border-radius: 2.5em;
+  }
+
+  main .sec_sec_b img {
+    width: 80%;
+  }
+
+  .rating-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rating-sec div:nth-of-type(2){
+    margin-top: 5em;
+  }
+
+  .collab-sec {
+    flex-direction: column-reverse;
+  }
+
+.collab-sec div:nth-of-type(1) {
+  text-align: center;
+  margin-top: 3em;
+  }
+
+.flow-convers_sec {
+  margin-top: 5em;
+  flex-direction: column;
+  margin-bottom: 5em;
+  }
+
+.flow-convers_sec div:nth-of-type(2) {
+  text-align: center;
+  display: unset;
+  place-content: unset;
+  }
+
+.collab-sec {
+  flex-direction: column-reverse;
+  }
+
+.getStarted-sec {
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 90%;
+  }
+
+.getStarted-sec button {
+  padding: 0.9em 2em;
+  
+  }
+
+.footerImg {
+  margin-top: 5em;
+  }
+
+.footer-sec {
+  flex-direction: column-reverse;
+  }
+
+.footer-sec h2 {
+  text-align: center;
+}
+
+.footer-sec div:nth-of-type(2) p {
+  margin-top: 1.5em;
+  line-height: 1.7;
+  width: unset;
+  text-align: center;
+  }
+
+.footer-sec form input:nth-of-type(1) {
+  width: 100%;
+  }
+
+.footer-sec form input:nth-of-type(2) {
+  margin-top: 1em;
+  margin-left: unset;
+  }
+
+.footer-sec div:nth-of-type(1){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  }
+
+.footer-sec div:nth-of-type(1) p {
+  width: unset;
+  text-align: center;
+  }
+
+.footer-sec div:nth-of-type(1) div {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  }
+
+.second_sec {
+  margin-top: 4em;
+  width: 95%;
+}
+
+.collab-sec p{
+  width: unset;
+  }
+
+.flow-convers_sec img {
+  width: unset;
+  }
+
+.footer-sec form {
+  text-align: center;
+  }
+
+.footer-sec div:nth-of-type(1) div{
+  flex-direction: row;
+  }
+
+.footer-sec{
+  width:90%;
+  }
+
 }
