@@ -35,17 +35,15 @@ Users should be able to:
 ### Links
 
 - Frontend Mentor solution url:  https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-kJxiE1Llm-
-- Live Site URL: https://atif-dev.github.io/introSignupForm/
-- Google Mobile Friendly Test: https://search.google.com/test/mobile-friendly/result?id=V7KRegj-UvZ_b85j39tvKQ
-- GitHub repo : https://github.com/atif-dev/introSignupForm
+- Live Site URL: https://atif-dev.github.io/fem_huddle-landing-page/
+- Google Mobile Friendly Test: https://search.google.com/test/mobile-friendly/result?id=tX9n5HrIpdG_DKb87ISSvQ
+- GitHub repo : https://github.com/atif-dev/fem_huddle-landing-page
 
 ## My process
 
   - Used existing knowledge.
   - New thing: React implementation
-  - Used Responsively desktop app for checking responsiveness.
-  - Used LT browser for checking responsiveness and screenshots.
-  - Checked responsiveness for different screens:
+  - Used Responsively desktop app and LT browser for checking responsiveness.
     
 ### Continued development
 
@@ -60,6 +58,7 @@ Users should be able to:
 - [Learn Resposiveness](https://web.dev/learn/design/) - Find about responsiveness.
 - [Learn centering in css](https://moderncss.dev/complete-guide-to-centering-in-css/) - Learn different possible ways for centering CSS.
 - [SCSS](https://moderncss.dev/complete-guide-to-centering-in-css/) - Learn to use SCSS using terminal.
+- [Deploy React App using GitHub](https://blog.logrocket.com/deploying-react-apps-github-pages/) - Nice article to deploy React app using Github pages.
 
 ## Author
 
