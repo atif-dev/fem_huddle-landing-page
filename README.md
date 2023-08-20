@@ -65,6 +65,6 @@ Users should be able to:
 
 ## Author
 
-- [atif_devs at Twitter](https://twitter.com/atif_devs). Come, Say Hi. Let's Connect for Learning and Sharing😇
+- [atif_devs @ Twitter](https://twitter.com/atif_devs) and [Atif Iqbal @ Linkedin](https://www.linkedin.com/in/atif-iqbal-60b0aa125/). Come, Say Hi. Let's Connect for Learning and Sharing😇
 
 ----**Be NICE and have FUN building!** 🚀😎😇----
