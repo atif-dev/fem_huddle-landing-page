@@ -43,6 +43,9 @@ Users should be able to:
 
   - Used existing knowledge.
   - New thing: React implementation
+  - ChatGPT for a React error
+  - Collaborate with a friend for email validation in React.
+  - Google for finding about React app deployment using GitHub.
   - Used Responsively desktop app and LT browser for checking responsiveness.
     
 ### Continued development
