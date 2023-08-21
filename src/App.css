@@ -29,6 +29,7 @@ header button {
 header button:hover{
   color: hsl(321, 100%, 78%);
   border: 1px solid hsl(321, 100%, 78%);
+  cursor: pointer;
 }
 
 .heading1 {
@@ -64,6 +65,7 @@ main .sec-btn {
 main .sec-btn:hover{
   background: #FF8ED6;
   border: 1px solid #FF8ED6;
+  cursor: pointer;
 }
 
 main .sec_sec_b {
@@ -199,6 +201,7 @@ main .sec_sec_b img {
 .getStarted-sec button:hover{
   background: #FF8ED6;
   border: 1px solid #FF8ED6;
+  cursor: pointer;
 }
 
 .footerImg{
@@ -276,6 +279,7 @@ main .sec_sec_b img {
 .footer-sec form input:nth-of-type(2):hover{
   background: #FF8ED6;
   border: 1px solid #FF8ED6;
+  cursor: pointer;
 }
 
 .contact{
