@@ -53,8 +53,10 @@ const Footer = ()=> {
                         send you spam or pass on your email address
                     </p>
                     <form onSubmit={handleEmail}>
+
                         <label for="email"></label>
                         <input type="text" name="email" id="email" onChange={e => setCheckEmail(e.target.value)} />
+                        <label for="submit"></label>
                         <input type='submit' value="Subscribe"/>    
                    </form>     
                    {emailerror && <p className='emailError'>{emailerror}</p>}           
